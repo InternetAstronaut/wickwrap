@@ -1,0 +1,20 @@
+{
+  "name": "wickwrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "appId": "noobfield.wickwrap",
+  "icon": "resources/icon.ico",
+  "scripts": {
+    "test": "electron .",
+    "dist": "electron-builder",
+    "dir": "electron-builder --dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^25.1.8"
+  }
+}
