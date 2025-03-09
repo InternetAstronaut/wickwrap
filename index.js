@@ -21,6 +21,7 @@ function createWindow() {
 
         if(response == 0) win.destroy();
     });
+    win.setIcon("resources/Icon.png")
 }
 
 app.whenReady().then(createWindow);

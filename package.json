@@ -4,7 +4,7 @@
   "description": "A wrapper for the Wick Editor.",
   "main": "index.js",
   "appId": "noobfield.wickwrap",
-  "icon": "resources/icon.ico",
+  "icon": "resources/Icon.png",
   "scripts": {
     "test": "electron .",
     "dist": "electron-builder",
@@ -12,7 +12,7 @@
     "installer": "electron-installer-windows --src dist/win-unpacked/ --dest dist/installers/"
   },
   "keywords": [],
-  "author": "",
+  "author": "Noobfield",
   "license": "ISC",
   "devDependencies": {
     "electron": "^35.0.0",
