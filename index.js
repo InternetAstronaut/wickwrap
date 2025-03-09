@@ -11,8 +11,6 @@ function createWindow() {
     });
     win.loadURL('https://stickmanred.github.io/wick-editor/');
     win.setMenu(null);
-    const { dialog } = require('electron');
-
     win.on('close', function () {
         let response = dialog.showMessageBoxSync(this, {
             type: 'question',
